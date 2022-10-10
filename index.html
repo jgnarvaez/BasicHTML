@@ -6,44 +6,76 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Aplicaciones Web</title>
-    <meta name="description" content="Resumen de aplicaciones Web">
-    <meta name="author" content="Jimmy Campo">
+    <title>HOJA DE VIDA</title>
+    <meta name="description" content="Hoja de vida básica">
+    <meta name="author" content="José Gregorio Narváez Alarcón">
 
     <link rel="icon" type="image/png" href="images/logo.png">
     
+    <link rel="stylesheet" type="text/css" href="index.css">
 
 </head>
 
 <body>
-    <h1>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-            width="20">
-            <path stroke-linecap="round" stroke-linejoin="round"
-                d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
-        </svg>
-        Aplicaciones Web
-    </h1>
-    <div>
-        <img src="images/web1.jpg" alt="">
-        <img src="images/web2.jpg" alt="">
-    </div>
-    <div>
-        <h2>🌐 La Web</h2>
-        Inventada por Tim Berners-Lee en el año de 1990
+    <header>
+        <h1> Hoja de Vida</h1>
+    </header>
+    <div id = "container">
+
+        <nav>
+            <ul>
+                <li>
+                    <a href = "informacion_academica.html"> <b>Informacion Académica</b></a>
+
+                </li>
+                <li>
+                    <a href = "informacion_laboral.html"> <b>Informacion Laboral</b></a>
+                </li>
+                <li>
+                    <a href = "referencias.html"> <b>Referencias</b></a>
+                </li>
+                <li>
+                    <a href = "contacto.html"> <b>Contacto</b></a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class = "divider"></div>
+
+        <section id="content">
+				
+            <article class="art">					
+                
+                <div class="container-all">	
+                    <img src="images/foto.jpg" alt="">
+                        <h3><strong>Datos Personales</strong></h3>
+                        <!--Contenido tipo texto...-->			
+                        <p><br>								
+                                <b>Nombre: </b>José Gregorio<br>
+                                <b>Apellidos: </b>Narváez Alarcón<br>
+                                <b>Identificación: </b>1061754153<br>
+                                <b>Dirección: </b>Calle 23 # 6 – 21 Barrio Los Comuneros<br>
+                                <b>Teléfono: </b>Cel.: 312-771-86-64<br>
+                                <b>Correo: </b>jgnarvaez@unicauca.edu.co<br>                                							
+                        </p>
+                </div>
+
+            </article>
+        </section>
+        <footer>
+            <h4>Enlaces de interés:</h4>
+
+                <a target= "blank" href="https://github.com/jgnarvaez">Repositorio Github</a>
+                
+            <h4>Derechos Reservados | José Gregorio Narváez Alarcón</h4>
+
+
+        </footer>
+        
+
     </div>
 
-    <div>
-        <img alt="Internet map 1024.jpg"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Internet_map_1024.jpg/600px-Internet_map_1024.jpg"
-            width="250" height="250">
-        <h2>💻 Internét</h2>
-        Internet (el internet o, también, la internet)3​ es un conjunto descentralizado de redes de comunicaciones
-        interconectadas, que utilizan la familia de protocolos TCP/IP, lo cual garantiza que las redes físicas
-        heterogéneas que
-        la componen constituyen una red lógica única de alcance mundial.
-        <br />Fuente: <a href="https://es.wikipedia.org/wiki/Internet" target="_new">Wikipedia</a>
-    </div>
+    
 
 </body>
 
