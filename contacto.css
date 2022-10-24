@@ -1,25 +1,29 @@
 *{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
+
 body{
-	background-color: #d9f2d9;
+    background-color: #d9f2d9;
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
 }
-.form-enviar {
-	width: 400px;
-	background: #006666;
-	padding: 30px;
-	margin: auto;
-	margin-top: 100px;
-	border-radius: 4px;
-	font-family: 'calibri';
-	color: white;
-	box-shadow: 7px 13px 37px #000;
+
+header{
+	height: 70px;
+	width: 100%;
+	line-height: 100px;
+	text-align: center;
+	font-family: Arial;
+	color: #000000;	
+	font-size: 30px;
+    display:block;
+    margin:auto;
 }
-.form-enviar h4{
-	font-size: 22px;
-	margin-bottom: 20px;
+
+.row a{
+	color: black;
 }
 
 .controls {
@@ -32,17 +36,24 @@ body{
 	font-family: 'calibri';
 	font-size: 18px;
 	color: black;
+}
 
-}
-.form-enviar p {
-	height: 40px;
-	text-align: center;
-	font-size: 18px;
-}
-.form-enviar a{
+.form-enviar {
+	width: 800px;
+	background: #006666;
+	padding: 30px;
+	margin: auto;
+	margin-top: 50px;
+	border-radius: 4px;
+	font-family: 'calibri';
 	color: white;
-	text-decoration: none;
+	box-shadow: 7px 13px 37px black;
 }
+.form-enviar h4{
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
 .form-enviar .botons{
 	width: 100%;
 	background: #adad85;	
@@ -51,7 +62,21 @@ body{
 	margin: 16px 0;
 	font-size: 16px;
 }
-p{
-	padding: 20px;
+
+footer{
+	width: 70.3%;
+	max-width:1000px;
+	margin: auto;
+	line-height: 40px;
 	text-align: center;
+	background: #277227;
+	border: 0px solid black;
+	color: white;
+	border-radius: 0px;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+footer a{
+	color: white;
 }
